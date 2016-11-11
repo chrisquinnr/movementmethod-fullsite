@@ -1,0 +1,23 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-bottom: 2rem;
+}
+
+.jumbotron {
+  background-image:url('../images/1.jpg');
+  background-size: cover;
+  background-position: 5rem -10rem;
+  color:white;
+  border-radius: 0;
+  padding: 7rem 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .jumbotron {
+    background-image:url('../images/1.jpg');
+    background-position: -100px 0;
+    background-size: cover;
+    color:white;
+    border-radius: 0;
+  }
+}

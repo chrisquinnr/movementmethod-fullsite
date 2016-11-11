@@ -1,0 +1,21 @@
+.secondary{
+  width:100%;
+  margin:1rem 0rem;
+}
+
+.logo {
+  max-width:12rem;
+  width:12rem;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 1.425rem;
+}
+
+.strapline {
+  padding-top:3rem;
+  width:50%;
+}
+.spacer {
+  padding-top:5rem;
+}

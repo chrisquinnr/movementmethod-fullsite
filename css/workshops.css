@@ -1,0 +1,9 @@
+.primary {
+  width:100%;
+}
+
+.secondary-w{
+  max-width:100%;
+  padding:1rem 0;
+  max-height:10rem;
+}
