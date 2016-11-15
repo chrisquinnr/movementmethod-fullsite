@@ -20,6 +20,9 @@
   width:50%;
   background-color:rgba(255, 255, 255, 0.75);
 }
+.j-arrow:after{
+   content: '\02192';
+}
 
 @media screen and (max-width: 768px) {
   .h1,h1{
@@ -27,5 +30,8 @@
   }
   .strapline {
       width:100%;
+  }
+  .j-arrow:after{
+    content: '\02193';
   }
 }
