@@ -24,6 +24,15 @@
    content: '\02192';
 }
 
+.btn-social-icon {
+  color:white !important;
+}
+
+.social-icons {
+  padding: 1rem;
+  float:right;
+}
+
 @media screen and (max-width: 768px) {
   .h1,h1{
     font-size:1.25rem;
