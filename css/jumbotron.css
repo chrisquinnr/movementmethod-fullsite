@@ -2,36 +2,6 @@
 body {
   padding-bottom: 2rem;
 }
-
 .jumbotron {
-  background-image:url('../images/secondary-1.jpg');
-  background-size: cover;
-  background-position: 0rem -10rem;
-  background-repeat: no-repeat;
-  color:white;
-  border-radius: 0;
-  padding: 7rem 2rem;
-}
-
-@media screen and (max-width: 1024px) {
-  .jumbotron {
-    background-image:url('../images/secondary-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:inherit;
-    color:white;
-    border-radius: 0;
-    padding: 4rem 2rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .jumbotron {
-    background-image:url('../images/secondary-1.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    color:white;
-    border-radius: 0;
-    padding: 4rem 2rem;
-  }
+  background-color: black;
 }
