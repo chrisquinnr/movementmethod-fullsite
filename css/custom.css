@@ -3,15 +3,11 @@
   margin:1rem 0rem;
 }
 
-.logo {
-  max-width:12rem;
-  width:12rem;
-}
-
 .spacer {
   padding-top:5rem;
 }
 .strapline {
+  margin-top:3rem;
   padding:1rem;
   color:#fdfdfd;
 }
@@ -38,4 +34,8 @@
   .j-arrow:after{
     content: '\02193';
   }
+}
+
+.icon-sp{
+  padding:0.3rem;
 }
