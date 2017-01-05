@@ -24,6 +24,19 @@
   float:right;
 }
 
+.highlight-color{
+  color:#15fafa;
+}
+
+
+.highlight-color-bg{
+  background-color:#15fafa;
+}
+
+.youtube-bg {
+  background-color:#e52d27;
+}
+
 @media screen and (max-width: 768px) {
   .h1,h1{
     font-size:1.25rem;
