@@ -34,9 +34,13 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Movement Method</a>
+        <a class="navbar-brand" href="./">Movement Method</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-left">
+          <li class=""><a class="" href="workshops.html">Workshops</a></li>
+          <li class=""><a class="" href="move-ed.html">Move'Ed</a></li>
+        </ul>
         <ul class="nav navbar-nav navbar-right">
           <li class="icon-sp"><a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com/groups/1803613009850304/"><span class="fa fa-facebook"></span></a></li>
           <li class="icon-sp"><a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/coachquinny/"><span class="fa fa-instagram"></span></a></li>
@@ -86,18 +90,24 @@ Join us at Circomedia in Bristol on Sat 2nd Sept 2017, for our two-day annual ev
           Grab your discount now! Be sure to select the right option from the choices below:
         </p>
         <p>
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
             <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="6ADACVF78H5ZW">
+            <input type="hidden" name="hosted_button_id" value="2LFHM8BLDR6SW">
             <table>
-            <tr><td><input type="hidden" name="on0" value="MoveEd'17 - 2nd & 3rd September">MoveEd'17 - 2nd & 3rd September</td></tr><tr><td><select name="os0">
-              <option value="MoveEd'17">MoveEd'17 £275.00 GBP</option>
-              <option value="MoveEd'17 Early Bird">MoveEd'17 Early Bird £199.00 GBP</option>
-            </select> </td></tr>
+              <tr><td><input type="hidden" name="on0" value="MoveEd'17">MoveEd'17</td></tr><tr><td><select name="os0">
+                <option value="MoveEd'17 2nd & 3rd September">MoveEd'17 2nd & 3rd September £275.00 GBP</option>
+              </select> </td></tr>
             </table>
             <input type="hidden" name="currency_code" value="GBP">
-            <input type="image" src="https://www.paypalobjects.com/en_US/GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+            <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
             <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+          </form>
+
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+            ">
+            <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
           </form>
         </p>
         </div>
